@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+
+<html>
+<head>
+
+  <title>Nubelco Fiver</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" integrity="sha512-9usAa10IRO0HhonpyAIVpjrylPvoDwiPUiKdWk5t3PyolY1cOd4DSE0Ga+ri4AuTroPR5aQvXU9xC6qOPnzFeg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <style>
+    body {
+      background-color: #99fe98;
+      margin: 0;
+      padding: 0;
+    }
+
+    header{
+        background-image: none;
+        padding: 10px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-bottom: 50px;
+
+    }
+
+    .logo{
+        width: 1875px;
+        height: 120px;
+    }
+
+    p{
+    text-align: center;
+    font-weight: bold;
+    }
+
+    .button-container {
+      display:flex;
+      justify-content:flex-start;
+      align-items:center;
+      margin-top: 20px;
+      padding-left: 90px;
+    }
+    .small-button {
+      border-radius: 50%;
+      width: 40px;
+      height: 40px;
+      justify-content: center;
+      align-items: center;
+      margin: 5px;
+      font-size: 20px;
+      color: white;
+      border: none;
+      cursor: pointer;
+    }
+
+    .green-button {
+      background-color: #7fc75b;
+    }
+
+    .blue-button {
+      background-color: #8ad0ff;
+    }
+
+    .contact-but{
+      border-radius: 50%;
+      width: 40px;
+      height: 40px;
+      display: flex;
+      margin: auto;
+      font-size: 22px;
+      color: white;
+      border: none;
+      cursor: pointer;
+      text-align: center;
+      flex-direction: column;
+      padding-right: 90px;
+    
+    }
+
+    .black-button {
+      background-color: #000000;
+      padding: 0 12px;
+    }
+
+
+    </style>
+</head>
+
+<body>
+    <!-- HEADER -->
+    <header> 
+        <img src="imagenes/Logo.png" alt="Logo" class="logo">
+    </header>
+
+    <!-- MAIN -->
+    <main>
+        <h1> <p>Contacto</p> </h1><br>
+        <A href=""><p>Solicitenos un presupuesto sin ningún compromiso, en este enlace.
+                  </p> </A> </h1>
+
+        <br>
+
+        <!-- Botones -->
+        <div class="contact-but">
+            <button class="contact-but black-button" onclick="location.href='tel:981111233'" style="margin-bottom: 10px;">
+              <span style="color: black; font-weight: bold; position: relative; display: block;right: -30px;">
+                <i class="fas fa-mobile-alt" style="position: absolute; top: 50%; left: -22px; transform: translate(-50%, -50%);color:white; "></i>918111233
+              </span>
+            </button>
+            <button class="contact-but black-button" onclick="location.href='tel:685856094'" style="margin-bottom: 10px;">
+              <span style="color: black; font-weight: bold; position: relative; display: block;right: -30px;">
+                <i class="fas fa-phone" style="position: absolute; top: 50%; left: -22px; transform: translate(-50%, -50%);color:white;"></i>685856094
+              </span>
+            </button>
+            <button class="contact-but black-button" onclick="location.href='inicio.html'">
+              <span style="color: black; font-weight: bold; position: relative; display: block;right: -30px;">
+                <i class="fas fa-envelope" style="position: absolute; top: 50%; left: -22px; transform: translate(-50%, -50%);color:white;"></i><a href="asesoria@xeaonline.com" style="color: rgb(30, 1, 138); text-decoration: none;">asesoria@xeaonline.com</a>
+              </span>
+            </button>
+        </div>
+
+        <br><br><br>
+           
+        <div class="button-container">
+            <button class="small-button green-button" onclick="location.href='inicio.html'">
+            <i class="fa-solid fa-house"></i>
+            </button>
+            
+            <button class="small-button blue-button" onclick="history.back()">
+            <i class="fa-solid fa-arrow-left"></i>
+            </button>
+        </div>
+        
+    </main>
+    
+
+</body>
+</html>

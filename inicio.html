@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+
+<html>
+<head>
+
+  <title>Nubelco Fiver</title>
+  <style>
+    body {
+      background-color: #99fe98;
+      margin: 0;
+      padding: 0;
+    }
+
+    header{
+        background-image: none;
+        padding: 10px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-bottom: 50px;
+
+    }
+
+    .logo{
+        width: 1875px;
+        height: 120px;
+    }
+
+    footer {
+      background-color: black;
+      color: #99fe98;
+      padding: 5px;
+      text-align: center;
+    }
+
+    .photo-container {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      height: 100vh;
+    }
+    .img1 {
+      width: 750px;
+      height: 200px;
+      margin-bottom: 10px;
+    }
+    .img2 {
+      width: 550px;
+      height: 400px;
+      margin-bottom: 10px;
+    }
+
+    footer {
+    position:absolute;
+    bottom:0;
+    width: 100%;
+  
+    }
+
+    /*Botones*/
+    .button-container {
+    position:absolute;
+    top: 165px;
+    left: 10px;
+    
+    }
+
+    .button {
+    background-color: #47aa40;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: block;
+    font-size: 16px;
+    margin-bottom: 10px;
+    border-radius:10px;
+    }
+
+    .mapa{
+    padding: 0 50px;
+    }
+
+    .enlaces{
+    position:absolute;
+    top: 500px;
+    right: 10px;
+    }
+    
+  </style>
+</head>
+
+<body>
+    <!-- HEADER -->
+    <header> 
+        <img src="imagenes/Logo.png" alt="Logo" class="logo">
+    </header>
+
+    <!-- MAIN -->
+    <main>
+        <div class="photo-container">
+            <img src="imagenes/img1.png" alt="img1" class="img1">
+            <img src="imagenes/img2.png" alt="img2" class="img2">
+        </div>
+
+        <!-- Botones -->
+        <div class="button-container">
+            <button class="button">Inicio</button>
+            <button class="button" onclick="location.href='Presentación.html'" target="_blank">Presentación</button>
+            <button class="button" onclick="location.href='Servicios.html'" target="_blank">Servicios</button>
+            <button class="button" onclick="location.href='Contacto.html'" target="_blank">Contacto</button>
+        </div>
+
+        <div class="enlaces"> 
+          <A href=""> Enlaces: podemos añadir más enlaces </A>
+        </div>
+    </main>
+    
+    <!-- FOOTER -->
+    <footer> 
+        <p>Teléfonos 981 111 233/ móvil 685 856 094 / 659857 508</p>
+        <p>Rúa Estanque: 14 Baixo B(15679-O Temple/Cambre)</p>
+    </footer>
+
+    <div class="mapa">
+      <A href=""> MAPA </A>
+    </div>
+    
+    <br><br><br>
+
+
+</body>
+</html>
+
